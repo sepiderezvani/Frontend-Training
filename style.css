@@ -1,0 +1,104 @@
+@import url("font.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: futura-pt , Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+nav{
+    border-bottom: 2px solid rgba(68, 68, 68, 0.10);
+    font-weight:800;
+}
+.navbar-brand{
+    padding-left: 30px;
+}
+.nav-item > a{
+   color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.nav-item{
+    padding: 0 15px ;
+}
+.nav-item:last-child > a {
+    color: #FF764D;
+}
+span >a{
+    text-decoration: none;
+    color: #0000FF;
+}
+
+
+.latest-job{
+    line-height: 40px;
+    font-size: 2rem;
+}
+@media screen and (max-width: 1122px ){
+
+    .latest-job{
+        font-size: 1rem;
+        line-height: 30px;
+    }
+}
+h3{
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+h5{
+    line-height: 40px;
+    font-weight: 100;
+    }
+.footer a , p , h5 {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.footer li{
+    list-style-type: none;
+}
+.social li{
+    list-style-type: none;
+}
+.social{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: -28px;
+}
+.social li{
+    width: 80px;
+    height: 70px;
+    transform: scale(.6);
+    margin-right: -30px;
+}
+.social li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transform: scale(.8);
+}
+.social li a.facebook {
+    background-image: url("images/icon-sprites-6.jpg");
+    background-position: -20px -5px;
+}
+.social li a.twitter{
+    background-image: url(images/icon-sprites-6.jpg);
+    background-position: -115px -10px;
+}
+.social li a.youtube{
+    background-image: url(images/icon-sprites-6.jpg);
+    background-position: -210px -15px;
+}
+.social li a.instagram{
+    background-image: url(images/icon-sprites-6.jpg);
+    background-position: -315px -15px;
+}
+.contact-us ul li {
+    margin-right: 10px;
+}
+.footer h5{
+    font-weight: 800;
+}
